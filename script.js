@@ -22,10 +22,14 @@ const getPeopleData = async () => {
         const peopleCard = document.createElement("div");
         peopleCard.className = "people-card";
 
+        const cardContainer = document.createElement("div")
+        cardContainer.className = "card-container";
+
         const peopleDiv = document.querySelector(".people-container");
 
         peopleCard.append(img, people, email)
-        peopleDiv.append(peopleCard);
+        cardContainer.append(peopleCard)
+        peopleDiv.append(cardContainer);
         counter += 1;
     }
     return json;
@@ -59,10 +63,14 @@ const getCompanyData = async () => {
         const companyCard = document.createElement("div");
         companyCard.className = "company-card";
 
+        const cardContainer2 = document.createElement("div")
+        cardContainer2.className = "card-container2";
+
         const companyDiv = document.querySelector(".company-container");
 
         companyCard.append(img2, companies, website);
-        companyDiv.append(companyCard);
+        cardContainer2.append(companyCard)
+        companyDiv.append(cardContainer2);
         counter += 1;
     }
 }
