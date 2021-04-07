@@ -1,0 +1,82 @@
+body {
+  background: url(https://bit.ly/3t39Ljs);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: "Noto Sans", sans-serif;
+  padding: 2rem;
+}
+
+.main-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.search-people {
+  border-style: solid;
+  height: 2rem;
+  border-radius: 15px;
+  font-size: 20px;
+  outline: none;
+  border-width: 1px;
+  background: white;
+}
+.search-people:hover {
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+}
+
+.people-card {
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  margin: 2rem;
+  padding: 1rem;
+  width: 18rem;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.profile-image {
+  border-radius: 5px;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+.search-company {
+  border-style: solid;
+  height: 2rem;
+  border-radius: 15px;
+  font-size: 20px;
+  outline: none;
+  border-width: 1px;
+  background: white;
+}
+
+.search-company:hover {
+  background: #7f7fd5;
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+}
+
+.company-card {
+  background: #7f7fd5;
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  margin: 2rem;
+  padding: 1rem;
+  width: 18rem;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.company-image {
+  border-radius: 5px;
+}
