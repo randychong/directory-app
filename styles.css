@@ -14,12 +14,13 @@ body {
 
 .search-people {
   border-style: solid;
-  height: 2rem;
-  border-radius: 15px;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 5px;
   font-size: 20px;
   outline: none;
   border-width: 1px;
-  background: white;
+  background-color: transparent;
 }
 .search-people:hover {
   background: rgb(241, 239, 239);
@@ -49,12 +50,13 @@ p {
 
 .search-company {
   border-style: solid;
-  height: 2rem;
-  border-radius: 15px;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 5px;
   font-size: 20px;
   outline: none;
   border-width: 1px;
-  background: white;
+  background-color: transparent;
 }
 
 .search-company:hover {
