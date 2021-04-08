@@ -31,7 +31,6 @@ const getPeopleData = async () => {
         peopleDiv.append(cardContainer);
         counter += 1;
     }
-    return json;
 }
 
 const peopleButton = document.querySelector(".search-people");
