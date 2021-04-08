@@ -21,6 +21,7 @@ body {
   outline: none;
   border-width: 1px;
   background-color: transparent;
+  transition: 200ms ease;
 }
 .search-people:hover {
   background: rgb(241, 239, 239);
@@ -57,6 +58,7 @@ p {
   outline: none;
   border-width: 1px;
   background-color: transparent;
+  transition: 200ms ease;
 }
 
 .search-company:hover {
