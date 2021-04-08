@@ -7,7 +7,6 @@ const getPeopleData = async () => {
     for (let person of json.data) {
         const img = document.createElement("img");
         img.className = "profile-image";
-        img.height = "160";
         img.height = "200";
         img.src = `http://placeimg.com/640/480/people/${counter}`
 
@@ -48,7 +47,6 @@ const getCompanyData = async () => {
     for (let company of json2.data) {
         const img2 = document.createElement("img");
         img2.className = "company-image";
-        img2.height = "160";
         img2.height = "200";
         img2.src = `http://placeimg.com/640/480/people/${counter}`
 
